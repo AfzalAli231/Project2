@@ -1,0 +1,149 @@
+@media (max-width:425px) {
+    /* Navbar */
+    #navbar {
+        width: 100%;
+        margin-right: 10rem;
+        background-color: #333;
+        padding-bottom: 5%;
+        font-size: 1.2rem;
+    }
+
+     /* What */
+
+#what {
+    clip-path: inset(0 0 0 0);
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+    #what .boxes {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #what .boxes i {
+        background-color: #59b2e0;
+        padding: 3.5rem;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+    }
+
+    #what .boxes h3 {
+font-size: 2rem;
+margin-bottom: 2rem;
+    }
+
+ 
+        /* Who */
+        #who {
+            display: flex;
+            height: 90vh;
+            margin-top: 1rem;
+                }                        
+                #who .who-img {
+                display: none;
+                }
+            
+            #who .who-content {
+                padding: 10rem;
+                display: flex;
+                flex-direction: column;
+                height: 70vh;
+                padding-top: 23rem;
+                justify-content: center;
+            }
+            
+            #who .who-content h3 {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            
+            #who .who-content ul li {
+                margin-bottom: 2rem;
+                border-bottom: #eee 1px dotted;
+                width: 24rem;
+                padding: 1rem;
+            }
+            #who .who-content ul li:last-child {
+            border: none;
+            }
+                
+            /* Clients */
+#clients {
+    padding: 5rem;
+    background: url(./clients.jpg);
+}
+
+#clients .clients  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .clients img {
+    height: 12rem;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+#clients .clients div {
+    flex: 1;
+    margin: 2rem;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#contact .contact-form {
+height: 100vh;
+width: 100vw;
+margin-bottom: 2rem;
+}
+
+#contact .contact-form label,
+#contact .contact-form input,
+#contact .contact-form textarea {
+display: block;
+}
+
+#contact.map {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+width: 100%;
+padding: 0.5rem;
+border-radius: 0.5rem;
+margin-bottom: 1rem;
+border: none;
+}
+
+#contact .contact-form label {
+    margin-bottom: 0.2rem;
+}
+
+#contact .map iframe {
+height: 100vh;
+width: 100vw;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 65rem;
+    font-size: 2rem;
+    position: sticky;
+}
+
+}
