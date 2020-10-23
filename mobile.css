@@ -1,7 +1,7 @@
 @media (max-width:425px) {
     /* Navbar */
     #navbar {
-        width: 100%;
+        width: 100vw;
         margin-right: 10rem;
         background-color: #333333;
         font-size: 1rem;
@@ -16,11 +16,26 @@
 }
 
 #header .header-content {
+    color: #fff;
     display: flex;
-    flex-direction: column;
-    height: 70vh;
-    align-items: center;
+    flex-flow: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+#header .header-content h1 {
+    font-size: 25px;
+    line-height: 1.1em;
+    padding-bottom: 3rem;
+    text-align: center;  
+}
+
+#header .header-content p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
 }
 
      /* What */
@@ -56,6 +71,7 @@ margin-bottom: 2rem;
             height: 90vh;
             margin-top: 3rem;
             margin-bottom: 3rem;
+            padding-top: 5rem;
                 }                        
                 #who .who-img {
                 display: none;
