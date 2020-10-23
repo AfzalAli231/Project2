@@ -3,17 +3,32 @@
     #navbar {
         width: 100%;
         margin-right: 10rem;
-        background-color: #333;
-        padding-bottom: 5%;
-        font-size: 1.2rem;
-    }
+        background-color: #333333;
+        font-size: 1rem;
+      }
+      
+      /* Header */
+#header {
+    width: 100vw;
+  height: 100vh;
+  background: url('./header.jpg') no-repeat center center/cover;
+  background-size: 100% 100%, cover;
+}
+
+#header .header-content {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
 
      /* What */
 
 #what {
     clip-path: inset(0 0 0 0);
     padding-bottom: 1rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
     #what .boxes {
@@ -39,7 +54,8 @@ margin-bottom: 2rem;
         #who {
             display: flex;
             height: 90vh;
-            margin-top: 1rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
                 }                        
                 #who .who-img {
                 display: none;
@@ -141,7 +157,7 @@ width: 100vw;
     background-color: #333;
     color: #fff;
     text-align: center;
-    margin-top: 65rem;
+    margin-top: 63rem;
     font-size: 2rem;
     position: sticky;
 }
