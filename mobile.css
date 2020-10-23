@@ -15,10 +15,11 @@
       
       /* Header */
 #header {
-    width: 100vw;
-    height: 100vh;
+    width: 101vw;
+    height: 80vh;
     background: url('./header.jpg') no-repeat center center/cover;
     background-size: 100% 100%, cover;
+    margin: 0;
 }
 
 #header .header-content {
@@ -33,7 +34,7 @@
 #header .header-content h1 {
     font-size: 25px;
     line-height: 1.1em;
-    padding-bottom: 3rem;
+    padding: 1rem 5rem;
     text-align: center;  
 }
 
@@ -47,6 +48,7 @@
      /* What */
 
 #what {
+    width: 100vw;
     clip-path: inset(0 0 0 0);
     padding-bottom: 0.5rem;
 }
@@ -74,8 +76,8 @@ margin-bottom: 2rem;
         #who {
             display: flex;
             height: 100vh;
-            padding-bottom: 15rem;
-            padding-top: 11rem;
+            width: 100vw;
+            padding: 8rem 1rem;
         }                        
                 #who .who-img {
                 display: none;
