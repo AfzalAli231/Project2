@@ -73,8 +73,10 @@ margin-bottom: 2rem;
         /* Who */
         #who {
             display: flex;
-            height: 90vh;
-                }                        
+            height: 100vh;
+            padding-bottom: 20rem;
+            padding-top: 11rem;
+        }                        
                 #who .who-img {
                 display: none;
                 }
