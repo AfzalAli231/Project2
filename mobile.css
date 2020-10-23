@@ -70,9 +70,7 @@ margin-bottom: 2rem;
             display: flex;
             height: 90vh;
             margin-top: 2rem;
-            margin-bottom: 2rem;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
+            margin-bottom: 3rem;
                 }                        
                 #who .who-img {
                 display: none;
@@ -84,21 +82,34 @@ margin-bottom: 2rem;
                 flex-direction: column;
                 height: 70vh;
                 padding-top: 23rem;
-                padding-bottom: 24rem;
                 justify-content: center;
                 text-align: center;
             }
             
+            #who .who-content h1 {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 3rem;
+            }
+
             #who .who-content h3 {
                 margin-top: 2rem;
                 margin-bottom: 2rem;
+                font-size: 1.8rem;
             }
             
+            #who .who-content p {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 1.4rem;
+            }
+
             #who .who-content ul li {
                 margin-bottom: 2rem;
                 border-bottom: #eee 1px dotted;
                 width: 24rem;
                 padding: 1rem;
+                font-size: 1.2rem;
             }
             #who .who-content ul li:last-child {
             border: none;
