@@ -283,6 +283,7 @@ width: 100%;
 /* Footer */
 #footer {
     background-color: #333;
+    padding-top: 4rem;
     color: #fff;
     text-align: center;
     padding: 1rem;
