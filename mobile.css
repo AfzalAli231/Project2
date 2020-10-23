@@ -12,7 +12,7 @@
 
     /* Navbar */
     #navbar {
-        width: 150vw;
+        width: 99vw;
         margin-right: 10rem;
         background-color: #333333;
         font-size: 1rem;
@@ -20,7 +20,7 @@
       
       /* Header */
 #header {
-    width: 101vw;
+    width: 100vw;
     height: 100vh;
     background: url('./header.jpg') no-repeat center center/cover;
     background-size: 100% 100%, cover;
@@ -52,30 +52,30 @@
 
      /* What */
 
-#what {
-    width: 100vw;
-    clip-path: inset(0 0 0 0);
-    padding-bottom: 0.5rem;
-}
-
-    #what .boxes {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
+     #what {
+        width: 100vw;
+        clip-path: inset(0 0 0 0);
+        padding-bottom: 0.5rem;
     }
-
-    #what .boxes i {
-        background-color: #59b2e0;
-        padding: 3.5rem;
-        border-radius: 50%;
-        margin-bottom: 2rem;
-    }
-
-    #what .boxes h3 {
-font-size: 2rem;
-margin-bottom: 2rem;
-    }
-
+    
+        #what .boxes {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+    
+        #what .boxes i {
+            background-color: #59b2e0;
+            padding: 3.5rem;
+            border-radius: 50%;
+            margin-bottom: 2rem;
+        }
+    
+        #what .boxes h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+        }
+    
  
         /* Who */
         #who {
@@ -163,6 +163,7 @@ margin-bottom: 2rem;
 #contact {
     display: flex;
     height: 100vh;
+    width: 100vw;
     flex-direction: column;
 }
 
