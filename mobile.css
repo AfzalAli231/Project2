@@ -5,8 +5,9 @@
         box-sizing: border-box;
     }
 
-    body {
-        width: 150vw;
+    body,
+    html {
+        width: 30vw;
         height: 100vh;
     }
 
@@ -21,7 +22,7 @@
       /* Header */
 #header {
     width: 101vw;
-    height: 93vh;
+    height: 94vh;
     background: url('./header.jpg') no-repeat center center/cover;
     background-size: 100% 100%, cover;
     margin-right: 2rem;
@@ -51,11 +52,11 @@
 }
 
      /* What */
-
      #what {
         width: 100vw;
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         padding-bottom: 0.5rem;
+        margin-top: -0.9rem;
     }
 
         #what .boxes {
@@ -177,7 +178,7 @@ display: block;
 }
 
 #contact.map {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-color: #fff;
 }
@@ -196,7 +197,7 @@ border: none;
 }
 
 #contact .map iframe {
-height: 100vh;
+height: 70vh;
 width: 100vw;
 }
 
@@ -206,7 +207,7 @@ width: 100vw;
     width: 100vw;
     color: #fff;
     text-align: center;
-    margin-top: 58rem;
+    margin-top: 36rem;
     font-size: 1.4rem;
     position: sticky;
 }
