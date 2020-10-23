@@ -69,8 +69,8 @@ margin-bottom: 2rem;
         #who {
             display: flex;
             height: 90vh;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
             padding-top: 5rem;
             padding-bottom: 5rem;
                 }                        
@@ -84,7 +84,9 @@ margin-bottom: 2rem;
                 flex-direction: column;
                 height: 70vh;
                 padding-top: 23rem;
+                padding-bottom: 24rem;
                 justify-content: center;
+                text-align: center;
             }
             
             #who .who-content h3 {
