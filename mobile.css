@@ -3,6 +3,7 @@
     html,body {
         width: 100vw;
         height: 100vh;
+        padding-right: 0rem;
     }
 
     /* Navbar */
