@@ -12,7 +12,7 @@
 
     /* Navbar */
     #navbar {
-        width: 99vw;
+        width: 100vw;
         margin-right: 10rem;
         background-color: #333333;
         font-size: 1rem;
@@ -20,11 +20,11 @@
       
       /* Header */
 #header {
-    width: 100vw;
-    height: 100vh;
+    width: 101vw;
+    height: 93vh;
     background: url('./header.jpg') no-repeat center center/cover;
     background-size: 100% 100%, cover;
-    margin: 0;
+    margin-right: 2rem;
 }
 
 #header .header-content {
@@ -54,10 +54,10 @@
 
      #what {
         width: 100vw;
-        clip-path: inset(0 0 0 0);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         padding-bottom: 0.5rem;
     }
-    
+
         #what .boxes {
             display: flex;
             text-align: center;
@@ -130,6 +130,7 @@
                 width: 24rem;
                 padding: 1rem;
                 font-size: 1.2rem;
+                margin-left: 0rem;
             }
             #who .who-content ul li:last-child {
             border: none;
