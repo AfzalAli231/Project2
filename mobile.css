@@ -1,7 +1,13 @@
 @media (max-width:425px) {
+
+    html,body {
+        width: 100vw;
+        height: 100vh;
+    }
+
     /* Navbar */
     #navbar {
-        width: 100vw;
+        width: 99vw;
         margin-right: 10rem;
         background-color: #333333;
         font-size: 1rem;
@@ -190,7 +196,7 @@ width: 100vw;
     color: #fff;
     text-align: center;
     margin-top: 58rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     position: sticky;
 }
 
